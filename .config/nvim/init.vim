@@ -14,7 +14,16 @@ Plugin 'VundleVim/Vundle.vim'
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'rust-lang/rust.vim'
 Plugin 'cespare/vim-toml'
+Plugin 'sheerun/vim-polyglot'
+Plugin 'joshdick/onedark.vim'
+
 
 call vundle#end()            " required
+
 filetype plugin indent on    " required
+
+
+syntax on
+colorscheme onedark
