@@ -1,3 +1,6 @@
-xset -b
-(sleep 3s && lxqt-notificationd) &
-(sleep 3s && sxhkd) &
+compton &
+sxhkd &
+devmon &
+polybar example &
+devmon &
+plank &
