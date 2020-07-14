@@ -1,14 +1,7 @@
-function! InitializeCoc()
-  call coc#util#install()
-  call coc#util#install_extensions([
-  \ 'coc-java',
-  \ ])
-endfunction
 
-call plug#begin()
+call plug#begin('~/.vim/plugged')
 
-Plug 'neoclide/coc.nvim', {'do': { -> InitializeCoc() } }
-
+Plug 'fatih/vim-go'
 Plug 'rust-lang/rust.vim'
 Plug 'cespare/vim-toml'
 Plug 'sheerun/vim-polyglot'
