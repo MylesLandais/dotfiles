@@ -13,3 +13,5 @@ bindkey "^[[1;5C" forward-word
 plugins=(
         history-substring-search
 )
+
+alias tf="terraform"
