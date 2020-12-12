@@ -96,3 +96,5 @@ makepkg -si
 
 steam gaming
 edit pacman.conf
+
+pacman -S openssh
