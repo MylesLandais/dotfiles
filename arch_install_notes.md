@@ -98,3 +98,9 @@ steam gaming
 edit pacman.conf
 
 pacman -S openssh
+
+## QT apps
+
+NOTE: set your QT_QPA_PLATFORMTHEME=
+
+sudo pacman -S qt5ct dolphin 
