@@ -104,3 +104,8 @@ pacman -S openssh
 NOTE: set your QT_QPA_PLATFORMTHEME=
 
 sudo pacman -S qt5ct dolphin 
+
+_map windows (super) key to rofi_
+yay -S ksuperkey
+// super + d must be set to rofi somewhere else
+ksuperkey -e 'Super_L=Super_L|d'
