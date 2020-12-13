@@ -78,7 +78,9 @@ sudo EDITOR=vim visudo
 desktop enviornment
 
 xorg-server
-nvidia nvidia-utils
+make sure to install as root
+nvidia nvidia-utils nvidia-settings
+
 nvidia-xconfig
 lightd(qt5-tools) qt breeze
  
