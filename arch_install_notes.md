@@ -105,7 +105,8 @@ pacman -S openssh
 
 NOTE: set your QT_QPA_PLATFORMTHEME=
 
-sudo pacman -S qt5ct dolphin 
+sudo pacman -S qt5ct dolphin ark p7zip unrar
+// ark, p7zip, and unrar for compressed file management
 
 _map windows (super) key to rofi_
 yay -S ksuperkey
