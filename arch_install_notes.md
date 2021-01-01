@@ -105,9 +105,15 @@ pacman -S openssh
 
 NOTE: set your QT_QPA_PLATFORMTHEME=
 
-sudo pacman -S qt5ct dolphin ark p7zip unrar
-// ark, p7zip, and unrar for compressed file management
+File Management
+- `dolphin` the default KDE file manager (a personal favorite)
+- `ffmpegthumbs` plugin for video thumbnails in dolphin
+- `ark` will add the context menu for dealing with compressed files
 
+```bash
+sudo pacman -S qt5ct dolphin ark p7zip unrar ffmpegthubms
+// ark, p7zip, and unrar for compressed file management
+```
 _map windows (super) key to rofi_
 yay -S ksuperkey
 // super + d must be set to rofi somewhere else
