@@ -118,3 +118,7 @@ _map windows (super) key to rofi_
 yay -S ksuperkey
 // super + d must be set to rofi somewhere else
 ksuperkey -e 'Super_L=Super_L|d'
+
+
+## notes for dual boot
+- Disable fast boot [refrence](https://superuser.com/questions/1277170/disable-windows-10-fast-boot-via-cmd-powershell)
