@@ -121,7 +121,9 @@ ksuperkey -e 'Super_L=Super_L|d'
 
 ## Aesthetics
 `kvantum-qt5` will help match GTK and QT applications for a consistent theme
+`noto-fonts` choice of font to set for system default
+```bash
 yay -S luv-icon-theme-git kvantum-qt5
-
+```
 ## notes for dual boot
 - Disable fast boot [refrence](https://superuser.com/questions/1277170/disable-windows-10-fast-boot-via-cmd-powershell)
