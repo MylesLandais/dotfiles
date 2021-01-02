@@ -119,7 +119,9 @@ yay -S ksuperkey
 // super + d must be set to rofi somewhere else
 ksuperkey -e 'Super_L=Super_L|d'
 
-yay -S luv-icon-theme-git
+## Aesthetics
+`kvantum-qt5` will help match GTK and QT applications for a consistent theme
+yay -S luv-icon-theme-git kvantum-qt5
 
 ## notes for dual boot
 - Disable fast boot [refrence](https://superuser.com/questions/1277170/disable-windows-10-fast-boot-via-cmd-powershell)
