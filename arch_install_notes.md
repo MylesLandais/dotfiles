@@ -56,12 +56,13 @@ problaby the most problematic part of the install, especially if you need EFI.
 # grub-mkconfig -o /boot/grub/grub.cfg
 ```
 ### Refind (not recommended)
-`pacman -S refind networkmanager
+```
+pacman -S refind networkmanager
 (? os-prober mtools? dosfstools? dialog?)
 lablk | grep EFI
 refind-install --userdefault /dev/nvme0n1p2 --alldrivers (point to windows EFI patition)
 mkrlconf
-
+```
 ---example refind_linux.conf---(can just rm?)
 /mnt/boot/refind_linux.conf
 
