@@ -1,3 +1,5 @@
+# Setting $term to xterm-256 to prevent problems with problems with SSH into machines that do not have alacritty
+# [not a bug](https://github.com/alacritty/alacritty/issues/3962#event-3540488601)
 env:
  TERM: xterm-256color
 
