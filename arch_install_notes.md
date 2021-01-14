@@ -109,6 +109,16 @@ steam gaming
 edit pacman.conf
 
 pacman -S openssh
+## Terminal stuff
+
+fisher is a package manager for FISH plugins
+`z` is a plugin to help navigate the file system with less typing
+
+```bash
+yay -S tmux
+yay -S fisher
+fisher install jethrokuan/z
+```
 
 ## QT apps
 
