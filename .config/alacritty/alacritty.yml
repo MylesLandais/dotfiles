@@ -36,3 +36,13 @@ colors:
     magenta: '#c678dd'
     cyan:    '#56b6c2'
     white:   '#ffffff'
+    
+font:
+  offset:
+    y: 4
+
+window:
+  padding:
+    x: 16
+    y: 16
+  dynamic_padding: true
