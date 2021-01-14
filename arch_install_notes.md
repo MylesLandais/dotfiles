@@ -144,5 +144,11 @@ ksuperkey -e 'Super_L=Super_L|d'
 ```bash
 yay -S luv-icon-theme-git kvantum-qt5
 ```
+
+## Developer Toolchain
+```
+git config --global user.email "myles.landais@protonmail.com"
+git config --global user.name "myles landais"
+```
 ## notes for dual boot
 - Disable fast boot [refrence](https://superuser.com/questions/1277170/disable-windows-10-fast-boot-via-cmd-powershell)
