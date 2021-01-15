@@ -120,8 +120,7 @@ yay -S fisher
 fisher install jethrokuan/z
 ```
 
-## QT apps
-
+## User Interface
 NOTE: set your QT_QPA_PLATFORMTHEME=
 
 File Management
@@ -138,6 +137,8 @@ yay -S ksuperkey
 // super + d must be set to rofi somewhere else
 ksuperkey -e 'Super_L=Super_L|d'
 
+### Fonts 
+yay -S noto-fonts noto-fonts-emoji adobe-source-han-sans-otc-fonts ttf-mikachan
 ## Aesthetics
 `kvantum-qt5` will help match GTK and QT applications for a consistent theme
 `noto-fonts` choice of font to set for system default
