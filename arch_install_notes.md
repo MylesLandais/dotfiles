@@ -88,9 +88,11 @@ sudo EDITOR=vim visudo
 
 Some import things to install `tlp` to disable power saving to prevent speaker pops. very bad for my studio monitors.
  and `man-db`
+ Fix screen tearing with a blank picom file, make sure its run on start.
+ 
 xorg-server
 make sure to install as root
-nvidia nvidia-utils nvidia-settings
+nvidia nvidia-utils nvidia-settings picom
 
 nvidia-xconfig
 lightd(qt5-tools) qt breeze
@@ -109,6 +111,7 @@ steam gaming
 edit pacman.conf
 
 pacman -S openssh
+
 ## Terminal stuff
 
 fisher is a package manager for FISH plugins
