@@ -84,21 +84,21 @@ sudo EDITOR=vim visudo
 --example /etc/sudoers
 //uncomment %wheel line
 
-desktop enviornment
+# desktop enviornment
 
+Some import things to install `tlp` to disable power saving to prevent speaker pops. very bad for my studio monitors.
+ and `man-db`
 xorg-server
 make sure to install as root
 nvidia nvidia-utils nvidia-settings
 
 nvidia-xconfig
 lightd(qt5-tools) qt breeze
- 
-
 
 systemctl enable sddm.service
 //bspwm sxhkd 
 awesome
-alacritty git picom polybar
+alacritty git picom polybar tlp man-db
 
 install yay
 git clone https://aur.archlinux.org/yay.git
