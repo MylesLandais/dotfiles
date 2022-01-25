@@ -19,3 +19,6 @@ alias tf="terraform"
 # ChooseNim Disable telemetry
 # [https://github.com/dom96/choosenim/blob/master/analytics.md]
 export DO_NOT_TRACK=1
+
+# Import Path for nimble + choosenim
+export PATH=/home/alexei/.nimble/bin:$PATH
