@@ -2,6 +2,12 @@ autoload -U colors && colors
 
 PROMPT="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[green]%}%~ %{$reset_color%}%% "
 
+## ~/.zsh_history
+HISTFILE=~/.zsh_history
+HISTSIZE=999999
+SAVEHIST=999999
+setops share_history
+
 ## CTRL-E to open command in vim
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
