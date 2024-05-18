@@ -1,8 +1,16 @@
 # Check for mocha toml file - if missing run the following curl cmd
-# curl -LO --output-dir ~/.config/alacritty/themes/ https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml
+# curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml
 import = [
 	"~/.config/alacritty/themes/catppuccin-mocha.toml",
 ]
+
+# Make sure to run tmux when starting alacrity (may want to change this exec behavior for different tmux selection
+[shell]
+program = "tmux"
+
+# https://archlinux.org/packages/extra/any/otf-comicshanns-nerd/ (part of the nerdfont collection)
+[font]
+normal = { family = "ComicShannsMono Nerd Font Mono", style="Regular" }
 
 [env]
 TERM = "xterm-256color"
