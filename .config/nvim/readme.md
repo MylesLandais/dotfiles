@@ -1,4 +1,5 @@
 Uzing Lazy to setup
+https://lazy.folke.io/
 
 # Theme
 - Catppucin-mocha
